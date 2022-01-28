@@ -11,6 +11,16 @@
 		9F66404427A41B6600278468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66404327A41B6600278468 /* ViewController.swift */; };
 		9F66404627A41B6800278468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F66404527A41B6800278468 /* Assets.xcassets */; };
 		9F66404927A41B6800278468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66404727A41B6800278468 /* Main.storyboard */; };
+		9F66405727A41B9200278468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66405627A41B9200278468 /* AppDelegate.swift */; };
+		9F66405927A41B9200278468 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66405827A41B9200278468 /* SceneDelegate.swift */; };
+		9F66405B27A41B9200278468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66405A27A41B9200278468 /* ViewController.swift */; };
+		9F66405E27A41B9200278468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66405C27A41B9200278468 /* Main.storyboard */; };
+		9F66406027A41B9300278468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F66405F27A41B9300278468 /* Assets.xcassets */; };
+		9F66406327A41B9300278468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66406127A41B9300278468 /* LaunchScreen.storyboard */; };
+		9F66406A27A41BCD00278468 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66406927A41BCD00278468 /* Renderer.swift */; };
+		9F66406B27A41BCD00278468 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66406927A41BCD00278468 /* Renderer.swift */; };
+		9F6C554927A427FE0009BB92 /* Constants Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C554827A427FE0009BB92 /* Constants Placeholder.swift */; };
+		9F6C554A27A427FE0009BB92 /* Constants Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C554827A427FE0009BB92 /* Constants Placeholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +30,27 @@
 		9F66404527A41B6800278468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F66404827A41B6800278468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F66404A27A41B6800278468 /* Demo_Engine_v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo_Engine_v2.entitlements; sourceTree = "<group>"; };
+		9F66405427A41B9200278468 /* Demo Engine v2 iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Engine v2 iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F66405627A41B9200278468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F66405827A41B9200278468 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F66405A27A41B9200278468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F66405D27A41B9200278468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F66405F27A41B9300278468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F66406227A41B9300278468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F66406427A41B9300278468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F66406927A41BCD00278468 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		9F6C554827A427FE0009BB92 /* Constants Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants Placeholder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9F66403B27A41B6600278468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F66405127A41B9200278468 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +63,9 @@
 		9F66403527A41B6600278468 = {
 			isa = PBXGroup;
 			children = (
+				9F66406827A41BA600278468 /* Blue Engine alpha */,
 				9F66404027A41B6600278468 /* Demo Engine v2 */,
+				9F66405527A41B9200278468 /* Demo Engine v2 iOS */,
 				9F66403F27A41B6600278468 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				9F66403E27A41B6600278468 /* Demo Engine v2.app */,
+				9F66405427A41B9200278468 /* Demo Engine v2 iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +89,29 @@
 				9F66404A27A41B6800278468 /* Demo_Engine_v2.entitlements */,
 			);
 			path = "Demo Engine v2";
+			sourceTree = "<group>";
+		};
+		9F66405527A41B9200278468 /* Demo Engine v2 iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F66405627A41B9200278468 /* AppDelegate.swift */,
+				9F66405827A41B9200278468 /* SceneDelegate.swift */,
+				9F66405A27A41B9200278468 /* ViewController.swift */,
+				9F66405C27A41B9200278468 /* Main.storyboard */,
+				9F66405F27A41B9300278468 /* Assets.xcassets */,
+				9F66406127A41B9300278468 /* LaunchScreen.storyboard */,
+				9F66406427A41B9300278468 /* Info.plist */,
+			);
+			path = "Demo Engine v2 iOS";
+			sourceTree = "<group>";
+		};
+		9F66406827A41BA600278468 /* Blue Engine alpha */ = {
+			isa = PBXGroup;
+			children = (
+				9F66406927A41BCD00278468 /* Renderer.swift */,
+				9F6C554827A427FE0009BB92 /* Constants Placeholder.swift */,
+			);
+			path = "Blue Engine alpha";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +134,23 @@
 			productReference = 9F66403E27A41B6600278468 /* Demo Engine v2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9F66405327A41B9200278468 /* Demo Engine v2 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F66406527A41B9300278468 /* Build configuration list for PBXNativeTarget "Demo Engine v2 iOS" */;
+			buildPhases = (
+				9F66405027A41B9200278468 /* Sources */,
+				9F66405127A41B9200278468 /* Frameworks */,
+				9F66405227A41B9200278468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo Engine v2 iOS";
+			productName = "Demo Engine v2 iOS";
+			productReference = 9F66405427A41B9200278468 /* Demo Engine v2 iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +162,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					9F66403D27A41B6600278468 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9F66405327A41B9200278468 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -110,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				9F66403D27A41B6600278468 /* Demo Engine v2 */,
+				9F66405327A41B9200278468 /* Demo Engine v2 iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +198,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F66405227A41B9200278468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F66406327A41B9300278468 /* LaunchScreen.storyboard in Resources */,
+				9F66406027A41B9300278468 /* Assets.xcassets in Resources */,
+				9F66405E27A41B9200278468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -132,7 +216,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F66404427A41B6600278468 /* ViewController.swift in Sources */,
+				9F66406A27A41BCD00278468 /* Renderer.swift in Sources */,
+				9F6C554927A427FE0009BB92 /* Constants Placeholder.swift in Sources */,
 				9F66404227A41B6600278468 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F66405027A41B9200278468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F66406B27A41BCD00278468 /* Renderer.swift in Sources */,
+				9F66405B27A41B9200278468 /* ViewController.swift in Sources */,
+				9F66405727A41B9200278468 /* AppDelegate.swift in Sources */,
+				9F66405927A41B9200278468 /* SceneDelegate.swift in Sources */,
+				9F6C554A27A427FE0009BB92 /* Constants Placeholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +243,22 @@
 				9F66404827A41B6800278468 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F66405C27A41B9200278468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F66405D27A41B9200278468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F66406127A41B9300278468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F66406227A41B9300278468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +433,67 @@
 			};
 			name = Release;
 		};
+		9F66406627A41B9300278468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo Engine v2 iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Demo-Engine-v2-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F66406727A41B9300278468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo Engine v2 iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Demo-Engine-v2-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +511,15 @@
 			buildConfigurations = (
 				9F66404E27A41B6800278468 /* Debug */,
 				9F66404F27A41B6800278468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F66406527A41B9300278468 /* Build configuration list for PBXNativeTarget "Demo Engine v2 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F66406627A41B9300278468 /* Debug */,
+				9F66406727A41B9300278468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
